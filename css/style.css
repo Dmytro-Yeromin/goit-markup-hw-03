@@ -257,12 +257,21 @@ a {
 .logo-white {
   color: var(--wite-color);
 }
+
 .address-link {
   font-weight: 400;
   line-height: 1.714;
   color: var(--wite-color);
 }
 
+.footer-link-logotype {
+  display: block;
+  font-family: var(--text-font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--wite-color);
+}
 .address-list {
   font-style: normal;
   font-weight: 400;
