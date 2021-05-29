@@ -51,9 +51,9 @@
     </header>
     <main>
       <!--HERO-->
-      <section class="portfolio-list">
+      <section class="section-portfolio-list">
         <div class="container">
-        <h1 class="hero-title">Наши работы</h1>
+        <h1 class="visually-hidden">Наши работы</h1>
         <ul class="social-button-list">
           <li><button class="button social-model-btn" type="button">Всё</button></li>
           <li><button class="button social-model-btn" type="button">Веб-сайты</button></li>
@@ -67,8 +67,11 @@
               <img src="./images/portfolio/portfolio_img_1.jpg" alt="Ноутбук" 
               width="370"
               height="294"/>
-              <h2 class="portfolio-title">Технокряк</h2>
-              <p class=" portfolio-title-list">Веб-сайт</p>
+              <div class="card-titles">
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class=" portfolio-title-list">Веб-сайт</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -76,8 +79,11 @@
               <img src="./images/portfolio/portfolio_img_2.jpg" alt="Баскетболисты" 
               width="370"
               height="294"/>
-              <h2 class=" portfolio-title">Постер New Orlean vs Golden Star</h2>
-              <p class=" portfolio-title-list">Дизайн</p>
+              <div class="card-titles">
+                <h2 class=" portfolio-title">Постер New Orlean vs Golden Star</h2>
+                <p class=" portfolio-title-list">Дизайн</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -85,8 +91,11 @@
               <img src="./images/portfolio/portfolio_img_3.jpg" alt="Рыба" 
               width="370"
               height="294"/>
-              <h2 class="portfolio-title">Ресторан Seafood</h2>
-              <p class="portfolio-title-list">Приложение</p>
+              <div class="card-titles">
+                <h2 class="portfolio-title">Ресторан Seafood</h2>
+                <p class="portfolio-title-list">Приложение</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -94,8 +103,11 @@
               <img src="./images/portfolio/portfolio_img_4.jpg" alt="Наушники" 
               width="370"
               height="294"/>
-              <h2 class=" portfolio-title">Проект Prime</h2>
-              <p class=" portfolio-title-list">Маркетинг</p>
+              <div class="card-titles">
+                <h2 class=" portfolio-title">Проект Prime</h2>
+                <p class=" portfolio-title-list">Маркетинг</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -103,8 +115,11 @@
               <img src="./images/portfolio/portfolio_img_5.jpg" alt="Коробки" 
               width="370"
               height="294"/>
-              <h2 class=" portfolio-title">Проект Boxes</h2>
-              <p class=" portfolio-title-list">Приложение</p>
+              <div class="card-titles">
+                <h2 class=" portfolio-title">Проект Boxes</h2>
+                <p class=" portfolio-title-list">Приложение</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -112,8 +127,11 @@
               <img src="./images/portfolio/portfolio_img_6.jpg" alt="Компьютер" 
               width="370"
               height="294"/>
-              <h2 class=" portfolio-title">Inspiration has no Borders</h2>
-              <p class=" portfolio-title-list">Веб-сайт</p>
+              <div class="card-titles">
+                <h2 class=" portfolio-title">Inspiration has no Borders</h2>
+                <p class=" portfolio-title-list">Веб-сайт</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -121,8 +139,11 @@
               <img src="./images/portfolio/portfolio_img_7.jpg" alt="Журнал" 
               width="370"
               height="294"/>
-              <h2 class=" portfolio-title">Издание Limited Edition</h2>
-              <p class=" portfolio-title-list">Дизайн</p>
+              <div class="card-titles">
+                <h2 class=" portfolio-title">Издание Limited Edition</h2>
+                <p class=" portfolio-title-list">Дизайн</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -130,8 +151,11 @@
               <img src="./images/portfolio/portfolio_img_8.jpg" alt="Табличка" 
               width="370"
               height="294"/>
-              <h2 class=" portfolio-title">Проект LAB</h2>
-              <p class=" portfolio-title-list">Маркетинг</p>
+              <div class="card-titles">
+                <h2 class=" portfolio-title">Проект LAB</h2>
+                <p class=" portfolio-title-list">Маркетинг</p>
+              </div>
+              
             </a>
           </li>
           <li>
@@ -139,15 +163,18 @@
               <img src="./images/portfolio/portfolio_img_9.jpg" alt="Человек работает за ноутбуком" 
               width="370"
               height="294"/>
-              <h2 class=" portfolio-title">Growing Business</h2>
-              <p class=" portfolio-title-list">Приложение</p>
+              <div class="card-titles">
+                <h2 class=" portfolio-title">Growing Business</h2>
+                <p class=" portfolio-title-list">Приложение</p>
+              </div>
+              
             </a>
           </li>
         </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="section-footer">
       <div class="container">
         <a href="./" class="link-logotype">
           <span class="logotype-span">Web</span>
@@ -155,21 +182,21 @@
         </a>
         <address class="footer">
           <ul class="list">
-            <li>
+            <li class="address-item">
               <a
-                class="link address-list"
+                class="address-list"
                 href="https://goo.gl/maps/JLYLpXLMzEvAMxe49"
                 target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
-              <a class="link address-list-link" href="mailto:info@devstudio.com"
+            <li class="address-item">
+              <a class="address-list-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
-            </li>
-            <li>
-              <a class="link address-list-link" href="tel:+380961111111"
+            </li> 
+            <li class="address-item">
+              <a class="address-list-link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
             </li>
