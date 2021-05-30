@@ -31,6 +31,13 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
 
 .container {
   width: 1200px;
@@ -65,12 +72,13 @@ a {
 
 .nav-list {
   display: flex;
-  width: 294px;
+
   align-items: center;
   margin-left: 93px;
-  justify-content: space-between;
-  padding-top: 32px;
-  padding-bottom: 32px;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav-list-contact {
@@ -218,6 +226,7 @@ a {
   font-size: 16px;
   line-height: 1.188;
   color: var(--black-color);
+  margin-bottom: 10px;
 }
 
 .title-position {
@@ -225,7 +234,6 @@ a {
   font-size: 16px;
   line-height: 1.188;
   color: var(--grey-color);
-  margin-bottom: 30px;
 }
 
 .section-team {
@@ -244,9 +252,8 @@ a {
   width: 270px;
   text-align: center;
 }
-.list-images {
-  margin-top: 30px;
-  margin-bottom: 10px;
+.our-team-list {
+  padding: 30px 32px;
 }
 
 /* footer */
@@ -330,7 +337,6 @@ a {
   padding: 6px 22px;
   border-radius: 4px;
   background-color: #f5f4fa;
-  margin-bottom: 50px;
 }
 
 .social-model-btn:hover,
@@ -355,7 +361,6 @@ a {
 
 .portfolio-list-images {
   display: flex;
-  justify-content: space-between;
   flex-flow: wrap;
 }
 .portfolio-list-images li:not(:nth-last-child(-n + 3)) {
@@ -373,7 +378,9 @@ a {
 .portfolio-list-images {
   margin-bottom: 30px;
 }
-
+.portfolio-list-images li:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
 .link-portfolio {
   display: inline-block;
 }
